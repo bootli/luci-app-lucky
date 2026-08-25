@@ -22,7 +22,7 @@ o.default = 16601
 o = s:option(Value, "safe",translate("Safe entrance"),translate("The panel management portal can only be set to log in to the panel through the specified security portal, such as:/lucky"))
 
 o = s:option( Value, "configdir", translate("Config dir path"),translate("The path to store the config file"))
-o.placeholder = "/etc/config/lucky.daji"
+o.placeholder = "/etc/lucky"
 o.default="/etc/lucky"
 
 m.apply_on_parse = true
